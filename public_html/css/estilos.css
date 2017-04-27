@@ -1,10 +1,117 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 26/04/2017, 07:24:07 PM
-    Author     : UPEU
-*/
+body{
+    background: white;
+    
+}
 
+#header1{
+    
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    
+    text-align: center; 
+    background:  #cccccc;
+}
+#header1 nav a{
+    margin-right: auto;
+}
+#header1 ul {   
+    overflow: hidden;
+    margin-top: auto;
+        
+}
+#header1 li {
+    float: right;
+    margin: 5px;
+   
+    margin-left: 100px ;
+    
+    
+}
+#header1 li a:hover{
+    color: rgba(0,250,0,0.5);
+    transition-duration: 0.3s;
+}
+nav ul{
+    background: #cccccc; 
+    display: flex;
+    float: right;
+      
+    
+}
+nav ul ul{
+    display: none;    
+}
+nav a{
+    font-weight: bold;
+    display: block;
+    color:#9B98AA;
+    padding: 25px 30px;
+    text-decoration: none;    
+}
+nav a:hover{
+    color: rgba(0,250,0,0.5);
+        
+}
+
+nav ul li:hover ul{
+    display: block;
+    position: absolute;    
+}
+section{
+    background:     grey;
+    
+}
+.body{
+    background: #cccccc;
+    text-align: center;
+}
+footer{
+    background: orange;
+    text-align: center;
+}
+nav img{
+    margin-right: 380px;
+    
+    
+}
+.header2{
+    margin: 380px;
+    margin-top: auto;
+    height: 315px;
+}
+#header1 a{
+    margin-top: auto;
+    
+    
+}
+#Formulario{
+    margin: auto;
+    background: violet;
+    width: 70%;
+    height: 100em;
+    padding: 3%;
+    border: 1.5px solid black;
+    border-radius: 3%;
+    
+}
+.cuadro1{
+    width: 100%;
+    height: 15%;
+    
+    
+    
+}
+
+.cuadro1-1{
+    width: 40%;
+    height: 100%;
+    float: left;
+    background: yellow;
+}
+.cuadro1-2{
+    width: 60%;
+    height: auto;
+    float: left;
+    background: red;
+}
