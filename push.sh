@@ -1,3 +1,3 @@
 git add -A
-git commit -am "Gerhard push"
-git push
+sudo git commit -am “Lan Push”
+git push 
